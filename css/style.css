@@ -57,7 +57,7 @@ a:focus {
 }
 
 body {
-    font-family: "Raleway", san-serif;
+    font-family: 'Poppins', sans-serif;
     position: relative;
     font-size: 16px;
     line-height: 1.65;
@@ -363,7 +363,7 @@ span {
 .heading h2 {
     font-size: 32px;
     font-weight: 600;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .owl-theme .owl-dot span {
@@ -546,15 +546,16 @@ blockquote {
 /*============ 3. Navbar ============*/
 
 nav.navbar {
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
     top: 0;
     z-index: 999;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 20px;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
+	border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
 nav.navbar .logo {
@@ -562,10 +563,12 @@ nav.navbar .logo {
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
 }
-
+.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+    color: #000;
+}
 nav.navbar .navbar-toggler {
     border: 0;
 }
@@ -579,7 +582,7 @@ nav.navbar .nav-item {
     font-weight: 400;
     padding-right: 13px;
     padding-left: 13px;
-    color: #fff;
+    color: #000;
     text-transform: uppercase;
 }
 
@@ -592,7 +595,7 @@ nav.navbar .nav-item:last-child {
 }
 
 nav.navbar .nav-item .nav-link {
-    color: #fff;
+    color: #000 !important;
     position: relative;
     text-decoration: none;
     padding: 0;
@@ -698,16 +701,16 @@ nav.fixed-top .nav-item .nav-link:before {
     transform: translateY(-50%);
 }
 
-.banner .banner-caption h1 {
-    font-size: 88px;
-    font-weight: 900;
-    color: #fff;
+.banner-caption h1 {
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: #000;
 }
 
-.banner .banner-caption p {
-    font-size: 24px;
-    font-family: "Raleway", san-serif;
-    color: #eee;
+.banner-caption p {
+    font-size: 1.5vw;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
 }
 
 .cd-headline {
@@ -890,7 +893,7 @@ section.about .about-img:before {
     height: 100%;
     position: absolute;
     bottom: -10%;
-    left: -10%;
+    right: -10%;
     z-index: 0;
 }
 
@@ -913,7 +916,7 @@ section.about .about-content .about-heading h2 {
 }
 
 section.about .about-content .about-heading span {
-    font-family: "Raleway", san-serif;
+    font-family: 'Poppins', sans-serif;
     color: #222;
     font-size: 19px;
 }
@@ -970,6 +973,9 @@ section.about .about-content .about-button {
 
 /*============ 6. Services Section ============*/
 
+.services{
+	border-top: 1px solid rgba(0,0,0,.1);
+}
 section.services .service-item {
     text-align: center;
     margin-bottom: 50px;
@@ -995,7 +1001,7 @@ section.services .service-item h4 {
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 16px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 section.services .service-item:hover .icon {
@@ -1067,7 +1073,7 @@ section.portfolio .portfolio-filter ul li {
     margin-right: 20px;
     color: #222;
     position: relative;
-    font-family: "Raleway", san-serif;
+    font-family: 'Poppins', sans-serif;
     cursor: pointer;
     text-transform: uppercase;
 }
@@ -1276,9 +1282,9 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #000;
+    background-color: #001132;
     z-index: 2;
-    opacity: .60;
+    opacity: .80;
 }
 
 .testimonials .container {
@@ -1303,7 +1309,6 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
 .testimonials .testimonial-item h5 {
     font-size: 24px;
     font-weight: 600;
-    margin: 20px 0 5px;
     color: #fff;
 }
 
@@ -1401,27 +1406,26 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
 /*============ 12. Footer  ============*/
 
 footer {
-    background: #222;
+    background: #fff;
 }
 
 footer .contact-info h5 {
-    color: #fff;
+    color: #000;
     font-size: 16px;
     font-weight: 700;
 }
 
 footer .contact-info p {
-    color: #fff;
     font-size: 14px;
 }
 
 footer hr {
-    border-color: #333;
+
 }
 
 footer .copy {
     font-size: 14px;
-    color: #aaa;
+    color: #333;
 }
 
 footer p.copy{
