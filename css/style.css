@@ -43,6 +43,9 @@ h4,
 h5,
 h6 {
     color: #222;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 img {
@@ -57,7 +60,9 @@ a:focus {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
     position: relative;
     font-size: 16px;
     line-height: 1.65;
