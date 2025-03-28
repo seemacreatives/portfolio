@@ -552,8 +552,8 @@ nav.navbar {
     width: 100%;
     top: 0;
     z-index: 999;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
@@ -710,7 +710,7 @@ nav.fixed-top .nav-item .nav-link:before {
 }
 
 .banner-caption p {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     color: #333;
 }
 
