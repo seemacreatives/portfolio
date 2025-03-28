@@ -43,9 +43,6 @@ h4,
 h5,
 h6 {
     color: #222;
-    font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
 }
 
 img {
@@ -568,7 +565,6 @@ nav.navbar .logo {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #000;
-    font-family: "Space Grotesk", sans-serif;
 
 }
 .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
@@ -714,7 +710,6 @@ nav.fixed-top .nav-item .nav-link:before {
 
 .banner-caption p {
     font-size: 1.5vw;
-    font-family: 'Poppins', sans-serif;
     color: #333;
 }
 
