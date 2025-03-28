@@ -73,7 +73,6 @@ body {
 p {
     font-size: 16px;
     line-height: 1.65;
-    font-family: "Open Sans", sans-serif;
 }
 
 span {
@@ -569,7 +568,8 @@ nav.navbar .logo {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #000;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Space Grotesk", sans-serif;
+
 }
 .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
     color: #000;
@@ -921,7 +921,7 @@ section.about .about-content .about-heading h2 {
 }
 
 section.about .about-content .about-heading span {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     color: #222;
     font-size: 19px;
 }
