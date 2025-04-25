@@ -381,6 +381,7 @@ span {
     background-color: #222;
     padding: 10px 20px;
     border: 2px solid #222;
+    border-radius:20px;
     color: #fff;
     text-transform: uppercase;
     -webkit-transition: .2s background-color ease;
@@ -932,7 +933,7 @@ section.about .about-content .social-icons {
     margin-top: 30px;
 }
 
-section.about .about-content .social-icons a {
+section.about .about-content .social-icons > a {
     display: inline-block;
     font-size: 15px;
     line-height: 26px;
