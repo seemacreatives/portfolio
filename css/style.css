@@ -379,7 +379,7 @@ span {
 .main-btn {
     display: inline-block;
     background-color: #222;
-    padding: 10px 20px;
+    padding: 8px 20px;
     border: 2px solid #222;
     border-radius:20px;
     color: #fff;
@@ -936,15 +936,16 @@ section.about .about-content .social-icons {
 section.about .about-content .social-icons > a {
     display: inline-block;
     font-size: 15px;
-    line-height: 26px;
+    line-height: 36px;
     text-align: center;
     margin-right: 10px;
     background-color: #222;
+    color: #fff;
     -webkit-border-radius: 50%;
     border-radius: 50%;
     border: 2px solid #222;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     -webkit-transition: .2s all ease;
     -o-transition: .2s all ease;
     transition: .2s all ease;
@@ -962,8 +963,7 @@ section.about .about-content .social-icons a:visited {
 section.about .about-content .social-icons a:hover {
     border: 2px solid #222;
     background: transparent;
-    line-height: 26px;
-	color:#000;
+    color:#000;
 }
 
 section.about .about-content .social-icons a:hover .fa {
