@@ -930,7 +930,7 @@ section.about .about-content p {
 }
 
 section.about .about-content .social-icons {
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 section.about .about-content .social-icons > a {
