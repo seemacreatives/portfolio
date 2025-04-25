@@ -889,7 +889,7 @@ section.about .about-img {
     position: relative;
 }
 
-section.about .about-img:before {
+/*section.about .about-img:before {
     content: "";
     background-color: #f2f2f2;
     width: 100%;
@@ -899,13 +899,13 @@ section.about .about-img:before {
     right: -10%;
     z-index: 0;
 }
-
+*/
 section.about .about-img img {
     position: relative;
     width: 100%;
     z-index: 1;
-    -webkit-box-shadow: 0 0 85px 0 rgba(0, 0, 0, 0.14);
-    box-shadow: 0 0 85px 0 rgba(0, 0, 0, 0.14);
+   /* -webkit-box-shadow: 0 0 85px 0 rgba(0, 0, 0, 0.14);
+    box-shadow: 0 0 85px 0 rgba(0, 0, 0, 0.14);*/
 }
 
 section.about .about-content .about-heading {
