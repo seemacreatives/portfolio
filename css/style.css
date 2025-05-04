@@ -1633,3 +1633,15 @@ section.banner-blog .banner-caption h1 {
         font-size: 32px;
     }
 }
+
+.casestudy-img{
+	text-align:center;
+}
+
+.casestudy-img img{
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    border-top: none;
+    max-width: 1024px;
+    text-align: center;
+    margin: auto;
+}
